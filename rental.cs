@@ -8,7 +8,7 @@ namespace RentalApp
         public DateTime DateRented;
         public DateTime DateDue;
 
-        //Rental constructor
+        
         public Rental(Book book, DateTime dateDue)
         {
             Book = book;
