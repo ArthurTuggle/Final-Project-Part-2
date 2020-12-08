@@ -24,7 +24,7 @@ namespace RentalApp
             
             p1.Display();
 
-            Console.Read();
+            
         }
     }
 }
