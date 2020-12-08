@@ -8,8 +8,8 @@ namespace RentalApp
         { 
             
             var book1 = new Book(1, "Harry Potter");
-            var book2 = new Book(2, "Harry Potter");
-            var book3 = new Book(3, "Harry Potter");
+            var book2 = new Book(2, "The Great Gatsby");
+            var book3 = new Book(3, "Invisible Man");
             
             var p1 = new Patron("Tim", "Smith", "1111");
             var p2 = new Patron("Connor", "Walsh", "2222");
