@@ -3,14 +3,14 @@ using System.Collections.Generic;
 
 namespace RentalApp
 {
-    internal class Patron : Person
+    internal class Patron:Person
     {
         string libraryId;
         DateTime startDate;
         DateTime endDate;
         bool isAccountActive;
         List<Rental> rentalCart;
-        int fineAmountDue;
+        double fineAmountDue;
 
         
         public Patron(string firstName, string lastName, string libraryId) : base(firstName, lastName)
