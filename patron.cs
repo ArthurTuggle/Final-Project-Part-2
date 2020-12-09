@@ -23,7 +23,7 @@ namespace RentalApp
         }        
         public void Display()
         {
-         Console.WriteLine("Patron Id=" + this.libraryId + " Name=" + base.FirstName + " " + base.LastName);
+         Console.WriteLine("Patron Id us=" + this.libraryId + " Name is=" + base.FirstName + " " + base.LastName);
         }
         public void AddToRentalCart(Book book, DateTime dateDue)
         {
@@ -31,7 +31,7 @@ namespace RentalApp
             Rental obj = new Rental(book, dateDue);
             
             rentalCart.Add(obj);
-            Console.WriteLine("Added to rental cart " + book.BookName + " Book " + book.BookId + " for Patron " + base.FirstName + " " + base.LastName);
+            Console.WriteLine("Added to the rental cart " + book.BookName + " Book " + book.BookId + " for the Patron " + base.FirstName + " " + base.LastName);
         }        
         public void RemoveFromRentalCart(Book book)
         {
